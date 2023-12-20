@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Daily Records Entry"
+        android:textAlignment="center"
+        android:textColor="#F0F8FF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- entry 1 -->
+        <TextView
+            android:layout_width="272dp"
+            android:layout_height="30dp"
+            android:text="Record No:"
+            android:textColor="#ffff"
+            android:layout_marginLeft="65dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/e1"
+            android:layout_width="272dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="65dp"
+            android:background="#9AFFFFFF"
+            android:hint="Record No."
+            android:textAlignment="center"
+            android:paddingTop="1dp"
+            android:textSize="20sp"
+            android:textColorHint="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="239dp" />
+
+        <!-- entry 2 -->
+        <TextView
+            android:layout_width="272dp"
+            android:layout_height="30dp"
+            android:text="Date:"
+            android:textColor="#ffff"
+            android:layout_marginLeft="65dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/e2"
+            android:layout_width="272dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="5dp"
+            android:background="#9AFFFFFF"
+            android:hint="Year-Month-Date"
+            android:textAlignment="center"
+            android:paddingTop="1dp"
+            android:textSize="20sp"
+            android:textColorHint="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="239dp" />
+
+        <!-- entry 3 -->
+        <TextView
+            android:layout_width="272dp"
+            android:layout_height="30dp"
+            android:text="Feed Bags:"
+            android:textColor="#ffff"
+            android:layout_marginLeft="65dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/e3"
+            android:layout_width="272dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="5dp"
+            android:background="#9AFFFFFF"
+            android:hint="Feed Bags"
+            android:textAlignment="center"
+            android:paddingTop="1dp"
+            android:textSize="20sp"
+            android:textColorHint="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="239dp" />
+
+        <!-- entry 4 -->
+        <TextView
+            android:layout_width="272dp"
+            android:layout_height="30dp"
+            android:text="Mortality:"
+            android:textColor="#ffff"
+            android:layout_marginLeft="65dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/e4"
+            android:layout_width="272dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="5dp"
+            android:background="#9AFFFFFF"
+            android:hint="Mortality"
+            android:textAlignment="center"
+            android:paddingTop="1dp"
+            android:textSize="20sp"
+            android:textColorHint="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="239dp" />
+
+        <!-- entry 5 -->
+        <TextView
+            android:layout_width="272dp"
+            android:layout_height="30dp"
+            android:text="Medicine Given:"
+            android:textColor="#ffff"
+            android:layout_marginLeft="65dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/e5"
+            android:layout_width="272dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="5dp"
+            android:background="#9AFFFFFF"
+            android:hint="Medicine"
+            android:textAlignment="center"
+            android:paddingTop="1dp"
+            android:textSize="20sp"
+            android:textColorHint="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="239dp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btid1"
+            android:layout_width="177dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#F6FF03"
+            android:text="Submit"
+            android:onClick="submit"
+            android:textColor="#061E95"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="423dp" />
+
+        <Button
+            android:id="@+id/btid2"
+            android:layout_width="177dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#F6FF03"
+            android:text="Cancel"
+            android:textColor="#061E95"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="423dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

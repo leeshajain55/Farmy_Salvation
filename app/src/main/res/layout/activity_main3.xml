@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="MORTALITY RATE"
+        android:textAlignment="center"
+        android:textColor="#F0F8FF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <EditText
+        android:id="@+id/id4"
+        android:layout_width="272dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="50dp"
+        android:background="#9AFFFFFF"
+        android:hint="Total Mortality"
+        android:textAlignment="center"
+        android:paddingTop="1dp"
+        android:textSize="20sp"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <EditText
+        android:id="@+id/id5"
+        android:layout_width="272dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="50dp"
+        android:background="#9AFFFFFF"
+        android:hint="Total Birds"
+        android:textSize="20sp"
+        android:textColorHint="@color/black"
+        android:paddingTop="1dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <Button
+        android:id="@+id/btid1"
+        android:layout_width="177dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#F6FF03"
+        android:text="COUNT"
+        android:textColor="#061E95"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="423dp" />
+
+
+    <TextView
+        android:id="@+id/id6"
+        android:layout_width="272dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="50dp"
+        android:background="#9AFFFFFF"
+        android:text="MORTALITY RATE"
+        android:paddingTop="14dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="541dp" />
+
+
+</LinearLayout>

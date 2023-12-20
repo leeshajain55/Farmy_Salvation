@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Navigation">
+    <!-- header design -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/toolbar"
+            android:elevation="4dp"
+            android:background="@drawable/header_bg"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/hen"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Farmy Salvation"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="contact@farmy_salvation.com"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="16dp"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <!--        <FrameLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:id="@+id/fragment_container"/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Icons 1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_baseline_home_24"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    app:tint="#673AB7"/>
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:text="Home"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp"
+                    android:textColor="#673AB7"
+                    android:id="@+id/home"/>
+            </LinearLayout>
+
+            <!-- Icons 2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_baseline_info_24"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    app:tint="#673AB7"/>
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:text="About"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp"
+                    android:textColor="#673AB7"
+                    android:id="@+id/about"/>
+            </LinearLayout>
+
+            <!-- Icons 3-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_baseline_chevron_right_24"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    app:tint="#673AB7"/>
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:text="FCR Count"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp"
+                    android:textColor="#673AB7"
+                    android:id="@+id/fcr"/>
+            </LinearLayout>
+
+            <!-- Icons 4-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_baseline_chevron_right_24"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    app:tint="#673AB7"/>
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:text="Mortality"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp"
+                    android:textColor="#673AB7"
+                    android:id="@+id/mort"/>
+            </LinearLayout>
+
+            <!-- Icons 5-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_baseline_input_24"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    app:tint="#673AB7"/>
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:text="Daily Records Entry"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp"
+                    android:textColor="#673AB7"
+                    android:id="@+id/record"/>
+            </LinearLayout>
+
+            <!-- Icons 6-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_baseline_preview_24"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    app:tint="#673AB7"/>
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:text="Daily Records"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="30dp"
+                    android:textColor="#673AB7"
+                    android:id="@+id/display"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
